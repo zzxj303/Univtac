@@ -1,3 +1,5 @@
+> 本仓库的 ACT／DP／π0.5 实验记录见 [六任务实验 README](README-six-task-rsi.md)，训练入口见 [official50](scripts/official50/README.md) 和 [π0.5 official50](scripts/pi05_official50/README.md)。下方保留 UniVTAC 上游说明。
+
 <h1 align="center">UniVTAC</h1>
 
 > UniVTAC: A Unified Simulation Platform for Visuo-Tactile Manipulation Data Generation, Learning, and Benchmarking<br>

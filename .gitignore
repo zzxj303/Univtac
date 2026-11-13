@@ -46,3 +46,7 @@ policy/T3/outputs
 policy/T3/checkpoints
 
 encoder/ablation/supervision
+
+# Local experiment environments and generated artifacts
+/.venv*/
+/outputs/
