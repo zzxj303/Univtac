@@ -1,0 +1,782 @@
+{
+  "benchmark": "univtac",
+  "same_prompt_verified": true,
+  "corrections_included": false,
+  "fact_metric_fields": [
+    "feedback_successes",
+    "termination_counts",
+    "best_validation_step"
+  ],
+  "summary": {
+    "raw": {
+      "calls": 18,
+      "evidence_valid": 158,
+      "evidence_total": 158,
+      "evidence_valid_rate": 1.0,
+      "mean_per_call_evidence_valid_rate": 0.8888888888888888,
+      "fact_errors": 6,
+      "all_fact_field_errors": 12,
+      "fact_comparable_calls": 16,
+      "schema_invalid_or_missing_calls": 2,
+      "valid_requirements": 10,
+      "terminated_calls": 2,
+      "model_requests": 122,
+      "input_tokens": 3042297,
+      "cached_input_tokens": 2330240,
+      "output_tokens": 34207,
+      "elapsed_s": 1120.4762880802155
+    },
+    "harness": {
+      "calls": 18,
+      "evidence_valid": 120,
+      "evidence_total": 120,
+      "evidence_valid_rate": 1.0,
+      "mean_per_call_evidence_valid_rate": 0.8888888888888888,
+      "fact_errors": 6,
+      "all_fact_field_errors": 12,
+      "fact_comparable_calls": 16,
+      "schema_invalid_or_missing_calls": 2,
+      "valid_requirements": 9,
+      "terminated_calls": 2,
+      "model_requests": 127,
+      "input_tokens": 3264655,
+      "cached_input_tokens": 2492160,
+      "output_tokens": 31825,
+      "elapsed_s": 1076.3866515159607
+    }
+  },
+  "rows": [
+    {
+      "group": "univtac_act_insert_HDMI_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 145236,
+      "cached_input_tokens": 105856,
+      "output_tokens": 1620,
+      "elapsed_s": 53.346229553222656,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 7,
+        "evidence_total": 7,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_insert_HDMI_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 149552,
+      "cached_input_tokens": 108288,
+      "output_tokens": 1852,
+      "elapsed_s": 62.93051338195801,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_insert_HDMI_rgb_tactile",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 8,
+      "input_tokens": 188207,
+      "cached_input_tokens": 136320,
+      "output_tokens": 1911,
+      "elapsed_s": 61.81671190261841,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 7,
+        "evidence_total": 7,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_insert_HDMI_rgb_tactile",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 190058,
+      "cached_input_tokens": 148480,
+      "output_tokens": 1796,
+      "elapsed_s": 78.84879183769226,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 7,
+        "evidence_total": 7,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_insert_hole_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 185022,
+      "cached_input_tokens": 145920,
+      "output_tokens": 2027,
+      "elapsed_s": 61.549607276916504,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 10,
+        "evidence_total": 10,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_insert_hole_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 151805,
+      "cached_input_tokens": 117248,
+      "output_tokens": 2019,
+      "elapsed_s": 59.13651990890503,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 12,
+        "evidence_total": 12,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_hole_act_rgbt",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 153263,
+      "cached_input_tokens": 110336,
+      "output_tokens": 1854,
+      "elapsed_s": 65.39620637893677,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 9,
+        "evidence_total": 9,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_hole_act_rgbt",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 192217,
+      "cached_input_tokens": 156032,
+      "output_tokens": 2250,
+      "elapsed_s": 72.77842426300049,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 11,
+        "evidence_total": 11,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_pull_out_key_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 148714,
+      "cached_input_tokens": 112896,
+      "output_tokens": 1805,
+      "elapsed_s": 57.23557162284851,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 7,
+        "evidence_total": 7,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_pull_out_key_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 190141,
+      "cached_input_tokens": 140288,
+      "output_tokens": 1742,
+      "elapsed_s": 56.35429286956787,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_pull_out_key_rgb_tactile",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 8,
+      "input_tokens": 232147,
+      "cached_input_tokens": 191360,
+      "output_tokens": 2121,
+      "elapsed_s": 72.07966780662537,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 9,
+        "evidence_total": 9,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_act_pull_out_key_rgb_tactile",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 128614,
+      "cached_input_tokens": 102400,
+      "output_tokens": 1767,
+      "elapsed_s": 53.020355224609375,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 9,
+        "evidence_total": 9,
+        "fact_errors": [
+          "best_validation_step",
+          "unavailable_reason"
+        ],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_dp_insert_HDMI_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 9,
+      "input_tokens": 258837,
+      "cached_input_tokens": 211456,
+      "output_tokens": 2327,
+      "elapsed_s": 79.19947004318237,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": false,
+        "evidence_valid": 7,
+        "evidence_total": 7,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_dp_insert_HDMI_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 9,
+      "input_tokens": 275782,
+      "cached_input_tokens": 225920,
+      "output_tokens": 2389,
+      "elapsed_s": 83.16607475280762,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_dp_insert_HDMI_rgb_tactile",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 9,
+      "input_tokens": 245332,
+      "cached_input_tokens": 197120,
+      "output_tokens": 2433,
+      "elapsed_s": 77.99882006645203,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 7,
+        "evidence_total": 7,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_dp_insert_HDMI_rgb_tactile",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 185269,
+      "cached_input_tokens": 131712,
+      "output_tokens": 2029,
+      "elapsed_s": 58.43290877342224,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_dp_insert_hole_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 0.0,
+      "termination": "tool_limit",
+      "model_requests": 6,
+      "input_tokens": 98371,
+      "cached_input_tokens": 62976,
+      "output_tokens": 582,
+      "elapsed_s": 38.68043923377991,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": null
+    },
+    {
+      "group": "univtac_dp_insert_hole_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 174336,
+      "cached_input_tokens": 134528,
+      "output_tokens": 2414,
+      "elapsed_s": 70.00304293632507,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 9,
+        "evidence_total": 9,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_hole_dp_rgbt",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 149271,
+      "cached_input_tokens": 105728,
+      "output_tokens": 1864,
+      "elapsed_s": 56.216663122177124,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 7,
+        "evidence_total": 7,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_hole_dp_rgbt",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 0.0,
+      "termination": "tool_limit",
+      "model_requests": 8,
+      "input_tokens": 170090,
+      "cached_input_tokens": 133504,
+      "output_tokens": 713,
+      "elapsed_s": 43.99800133705139,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": null
+    },
+    {
+      "group": "univtac_dp_pull_out_key_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 8,
+      "input_tokens": 254524,
+      "cached_input_tokens": 196608,
+      "output_tokens": 1815,
+      "elapsed_s": 63.57298040390015,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_dp_pull_out_key_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 144890,
+      "cached_input_tokens": 102784,
+      "output_tokens": 3911,
+      "elapsed_s": 95.21658229827881,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 38,
+        "evidence_total": 38,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_dp_pull_out_key_rgb_tactile",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 0.0,
+      "termination": "tool_limit",
+      "model_requests": 7,
+      "input_tokens": 130800,
+      "cached_input_tokens": 84608,
+      "output_tokens": 807,
+      "elapsed_s": 43.006781816482544,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": null
+    },
+    {
+      "group": "univtac_dp_pull_out_key_rgb_tactile",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 0.0,
+      "termination": "tool_limit",
+      "model_requests": 7,
+      "input_tokens": 101234,
+      "cached_input_tokens": 77440,
+      "output_tokens": 651,
+      "elapsed_s": 38.984631061553955,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": null
+    },
+    {
+      "group": "univtac_pi05_insert_HDMI_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 192501,
+      "cached_input_tokens": 155648,
+      "output_tokens": 1716,
+      "elapsed_s": 57.319844484329224,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 6,
+        "evidence_total": 6,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_insert_HDMI_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 160111,
+      "cached_input_tokens": 112256,
+      "output_tokens": 1672,
+      "elapsed_s": 52.28260159492493,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 6,
+        "evidence_total": 6,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_insert_HDMI_rgb_tactile",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 196261,
+      "cached_input_tokens": 152064,
+      "output_tokens": 1955,
+      "elapsed_s": 61.561362981796265,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_insert_HDMI_rgb_tactile",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 193755,
+      "cached_input_tokens": 149376,
+      "output_tokens": 2035,
+      "elapsed_s": 62.67289423942566,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 9,
+        "evidence_total": 9,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_hole_pi05_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 149286,
+      "cached_input_tokens": 108032,
+      "output_tokens": 1506,
+      "elapsed_s": 52.220301151275635,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 5,
+        "evidence_total": 5,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_hole_pi05_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 151420,
+      "cached_input_tokens": 114944,
+      "output_tokens": 1687,
+      "elapsed_s": 55.555378437042236,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 6,
+        "evidence_total": 6,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_insert_hole_rgb_tactile",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 192554,
+      "cached_input_tokens": 149120,
+      "output_tokens": 1890,
+      "elapsed_s": 59.65321612358093,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_insert_hole_rgb_tactile",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 146247,
+      "cached_input_tokens": 121472,
+      "output_tokens": 1797,
+      "elapsed_s": 56.69438886642456,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 6,
+        "evidence_total": 6,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_pull_out_key_rgb",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 197280,
+      "cached_input_tokens": 152576,
+      "output_tokens": 1587,
+      "elapsed_s": 57.06283402442932,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 6,
+        "evidence_total": 6,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_pull_out_key_rgb",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 7,
+      "input_tokens": 193556,
+      "cached_input_tokens": 156288,
+      "output_tokens": 1888,
+      "elapsed_s": 62.57647132873535,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 8,
+        "evidence_total": 8,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_pull_out_key_rgb_tactile",
+      "condition": "harness",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 147049,
+      "cached_input_tokens": 113536,
+      "output_tokens": 2005,
+      "elapsed_s": 58.46994352340698,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 9,
+        "evidence_total": 9,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    {
+      "group": "univtac_pi05_pull_out_key_rgb_tactile",
+      "condition": "raw",
+      "evidence_valid_rate_per_call": 1.0,
+      "termination": null,
+      "model_requests": 6,
+      "input_tokens": 143220,
+      "cached_input_tokens": 97280,
+      "output_tokens": 1595,
+      "elapsed_s": 57.8244149684906,
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "verification": {
+        "passed": true,
+        "evidence_valid": 5,
+        "evidence_total": 5,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    }
+  ]
+}

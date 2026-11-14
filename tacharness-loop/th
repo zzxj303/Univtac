@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+export PYTHONDONTWRITEBYTECODE=1
+exec /root/autodl-tmp/gujie/UniVTAC/.venv/bin/python /root/autodl-tmp/gujie/tacharness-loop/th.py "$@"

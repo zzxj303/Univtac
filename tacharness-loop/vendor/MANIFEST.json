@@ -1,0 +1,1877 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/_base_task.py",
+      "destination": "vendor/UniVTAC/envs/_base_task.py",
+      "copied_at": 1794668645.518403,
+      "bytes": 51613
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/_global.py",
+      "destination": "vendor/UniVTAC/envs/_global.py",
+      "copied_at": 1794668645.5185437,
+      "bytes": 290
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/beat_block.py",
+      "destination": "vendor/UniVTAC/envs/beat_block.py",
+      "copied_at": 1794668645.5186667,
+      "bytes": 3034
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/collect.py",
+      "destination": "vendor/UniVTAC/envs/collect.py",
+      "copied_at": 1794668645.5187821,
+      "bytes": 3884
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/grasp_classify.py",
+      "destination": "vendor/UniVTAC/envs/grasp_classify.py",
+      "copied_at": 1794668645.518897,
+      "bytes": 4097
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/insert_HDMI.py",
+      "destination": "vendor/UniVTAC/envs/insert_HDMI.py",
+      "copied_at": 1794668645.5190141,
+      "bytes": 4365
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/insert_hole.py",
+      "destination": "vendor/UniVTAC/envs/insert_hole.py",
+      "copied_at": 1794668645.5191252,
+      "bytes": 4795
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/insert_tube.py",
+      "destination": "vendor/UniVTAC/envs/insert_tube.py",
+      "copied_at": 1794668645.519273,
+      "bytes": 4919
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/lift_bottle.py",
+      "destination": "vendor/UniVTAC/envs/lift_bottle.py",
+      "copied_at": 1794668645.5193849,
+      "bytes": 3578
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/lift_can.py",
+      "destination": "vendor/UniVTAC/envs/lift_can.py",
+      "copied_at": 1794668645.5194917,
+      "bytes": 4157
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/pull_out_key.py",
+      "destination": "vendor/UniVTAC/envs/pull_out_key.py",
+      "copied_at": 1794668645.5195975,
+      "bytes": 4232
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/put_bottle_in_shelf.py",
+      "destination": "vendor/UniVTAC/envs/put_bottle_in_shelf.py",
+      "copied_at": 1794668645.519708,
+      "bytes": 3616
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/robot/curobo_planner.py",
+      "destination": "vendor/UniVTAC/envs/robot/curobo_planner.py",
+      "copied_at": 1794668645.5213115,
+      "bytes": 6094
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/robot/robot.py",
+      "destination": "vendor/UniVTAC/envs/robot/robot.py",
+      "copied_at": 1794668645.521466,
+      "bytes": 9774
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/robot/robot_cfg.py",
+      "destination": "vendor/UniVTAC/envs/robot/robot_cfg.py",
+      "copied_at": 1794668645.5215907,
+      "bytes": 9097
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/sensors/camera.py",
+      "destination": "vendor/UniVTAC/envs/sensors/camera.py",
+      "copied_at": 1794668645.521738,
+      "bytes": 1564
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/sensors/tactile.py",
+      "destination": "vendor/UniVTAC/envs/sensors/tactile.py",
+      "copied_at": 1794668645.52186,
+      "bytes": 22390
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/stack_blocks.py",
+      "destination": "vendor/UniVTAC/envs/stack_blocks.py",
+      "copied_at": 1794668645.5219772,
+      "bytes": 4550
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/utils/__init__.py",
+      "destination": "vendor/UniVTAC/envs/utils/__init__.py",
+      "copied_at": 1794668645.522102,
+      "bytes": 261
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/utils/actor.py",
+      "destination": "vendor/UniVTAC/envs/utils/actor.py",
+      "copied_at": 1794668645.5222325,
+      "bytes": 14129
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/utils/atom.py",
+      "destination": "vendor/UniVTAC/envs/utils/atom.py",
+      "copied_at": 1794668645.522344,
+      "bytes": 12358
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/utils/data.py",
+      "destination": "vendor/UniVTAC/envs/utils/data.py",
+      "copied_at": 1794668645.5224583,
+      "bytes": 12144
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/utils/env_parser.py",
+      "destination": "vendor/UniVTAC/envs/utils/env_parser.py",
+      "copied_at": 1794668645.5225651,
+      "bytes": 12160
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/envs/utils/transforms.py",
+      "destination": "vendor/UniVTAC/envs/utils/transforms.py",
+      "copied_at": 1794668645.5226772,
+      "bytes": 18845
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/franka/collision_franka.yml",
+      "destination": "vendor/UniVTAC/assets/embodiments/franka/collision_franka.yml",
+      "copied_at": 1794668645.5234427,
+      "bytes": 4368
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/franka/curobo.yml",
+      "destination": "vendor/UniVTAC/assets/embodiments/franka/curobo.yml",
+      "copied_at": 1794668645.5235596,
+      "bytes": 3232
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/franka/panda.urdf",
+      "destination": "vendor/UniVTAC/assets/embodiments/franka/panda.urdf",
+      "copied_at": 1794668645.5236819,
+      "bytes": 11132
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/collision_ur5e copy.yml",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/collision_ur5e copy.yml",
+      "copied_at": 1794668645.524137,
+      "bytes": 1618
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/collision_ur5e.yml",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/collision_ur5e.yml",
+      "copied_at": 1794668645.5243442,
+      "bytes": 1647
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/configuration/ur5e_temp_base.usd",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/configuration/ur5e_temp_base.usd",
+      "copied_at": 1794668645.5247202,
+      "bytes": 492
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/configuration/ur5e_temp_physics.usd",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/configuration/ur5e_temp_physics.usd",
+      "copied_at": 1794668645.524903,
+      "bytes": 492
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/configuration/ur5e_temp_sensor.usd",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/configuration/ur5e_temp_sensor.usd",
+      "copied_at": 1794668645.525075,
+      "bytes": 492
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/curobo.yml",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/curobo.yml",
+      "copied_at": 1794668645.5252476,
+      "bytes": 1450
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/ur5e.urdf",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/ur5e.urdf",
+      "copied_at": 1794668645.5255294,
+      "bytes": 9852
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/embodiments/ur5e/ur5e_temp.usd",
+      "destination": "vendor/UniVTAC/assets/embodiments/ur5e/ur5e_temp.usd",
+      "copied_at": 1794668645.525702,
+      "bytes": 492
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_CircleShell.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_CircleShell.usd",
+      "copied_at": 1794668645.5271611,
+      "bytes": 324976
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Cone.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Cone.usd",
+      "copied_at": 1794668645.5274677,
+      "bytes": 1034
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Cross.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Cross.usd",
+      "copied_at": 1794668645.5278425,
+      "bytes": 27514
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Cubehole.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Cubehole.usd",
+      "copied_at": 1794668645.5287695,
+      "bytes": 186382
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Cuboid.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Cuboid.usd",
+      "copied_at": 1794668645.5291078,
+      "bytes": 11878
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Cylinder.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Cylinder.usd",
+      "copied_at": 1794668645.5300314,
+      "bytes": 172082
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Doubleslope.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Doubleslope.usd",
+      "copied_at": 1794668645.5303774,
+      "bytes": 9912
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Hemisphere.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Hemisphere.usd",
+      "copied_at": 1794668645.5322378,
+      "bytes": 475614
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Line.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Line.usd",
+      "copied_at": 1794668645.5326595,
+      "bytes": 20696
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Pacman.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Pacman.usd",
+      "copied_at": 1794668645.5332153,
+      "bytes": 87327
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_S.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_S.usd",
+      "copied_at": 1794668645.5356522,
+      "bytes": 605487
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Sphere.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Sphere.usd",
+      "copied_at": 1794668645.5369697,
+      "bytes": 327289
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Squareshell.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Squareshell.usd",
+      "copied_at": 1794668645.5372615,
+      "bytes": 28529
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Star.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Star.usd",
+      "copied_at": 1794668645.5375533,
+      "bytes": 24793
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Tetrahedron.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Tetrahedron.usd",
+      "copied_at": 1794668645.537729,
+      "bytes": 7323
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bar_Torus.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bar_Torus.usd",
+      "copied_at": 1794668645.5407903,
+      "bytes": 1325037
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Bottle.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Bottle.usd",
+      "copied_at": 1794668645.541388,
+      "bytes": 79921
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/BottleLift.usd",
+      "destination": "vendor/UniVTAC/assets/objects/BottleLift.usd",
+      "copied_at": 1794668645.5484428,
+      "bytes": 4982396
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Can_d4cm.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Can_d4cm.usd",
+      "copied_at": 1794668645.5492034,
+      "bytes": 117466
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Can_d5cm.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Can_d5cm.usd",
+      "copied_at": 1794668645.5499845,
+      "bytes": 118263
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Can_d6cm.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Can_d6cm.usd",
+      "copied_at": 1794668645.5506952,
+      "bytes": 120282
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/GreenPad.usd",
+      "destination": "vendor/UniVTAC/assets/objects/GreenPad.usd",
+      "copied_at": 1794668645.5508819,
+      "bytes": 5924
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/HDMI.usd",
+      "destination": "vendor/UniVTAC/assets/objects/HDMI.usd",
+      "copied_at": 1794668645.5510342,
+      "bytes": 79917
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/HDMISlot.usd",
+      "destination": "vendor/UniVTAC/assets/objects/HDMISlot.usd",
+      "copied_at": 1794668645.558722,
+      "bytes": 10287825
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Hammer.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Hammer.usd",
+      "copied_at": 1794668645.5636613,
+      "bytes": 2695217
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/HoleShelf.usd",
+      "destination": "vendor/UniVTAC/assets/objects/HoleShelf.usd",
+      "copied_at": 1794668645.5642374,
+      "bytes": 42763
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/HoleSlot.usd",
+      "destination": "vendor/UniVTAC/assets/objects/HoleSlot.usd",
+      "copied_at": 1794668645.5646837,
+      "bytes": 51040
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Key.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Key.usd",
+      "copied_at": 1794668645.5648618,
+      "bytes": 103799
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/KeySlot.usd",
+      "destination": "vendor/UniVTAC/assets/objects/KeySlot.usd",
+      "copied_at": 1794668645.565108,
+      "bytes": 242361
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/LeanSlot.usd",
+      "destination": "vendor/UniVTAC/assets/objects/LeanSlot.usd",
+      "copied_at": 1794668645.5659678,
+      "bytes": 32096
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/OrangePad.usd",
+      "destination": "vendor/UniVTAC/assets/objects/OrangePad.usd",
+      "copied_at": 1794668645.5662715,
+      "bytes": 5966
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/PlainPrism.usd",
+      "destination": "vendor/UniVTAC/assets/objects/PlainPrism.usd",
+      "copied_at": 1794668645.5668385,
+      "bytes": 40807
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/RoughPrism.usd",
+      "destination": "vendor/UniVTAC/assets/objects/RoughPrism.usd",
+      "copied_at": 1794668645.5701811,
+      "bytes": 1310640
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Shelf.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Shelf.usd",
+      "copied_at": 1794668645.5704484,
+      "bytes": 9019
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Stand.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Stand.usd",
+      "copied_at": 1794668645.570653,
+      "bytes": 7317
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/TestTube.usd",
+      "destination": "vendor/UniVTAC/assets/objects/TestTube.usd",
+      "copied_at": 1794668645.5708368,
+      "bytes": 142971
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/TestTubeBase.usd",
+      "destination": "vendor/UniVTAC/assets/objects/TestTubeBase.usd",
+      "copied_at": 1794668645.571017,
+      "bytes": 119238
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/TestTubeHoleSlot.usd",
+      "destination": "vendor/UniVTAC/assets/objects/TestTubeHoleSlot.usd",
+      "copied_at": 1794668645.5712028,
+      "bytes": 139352
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/TestTubeSlot.usd",
+      "destination": "vendor/UniVTAC/assets/objects/TestTubeSlot.usd",
+      "copied_at": 1794668645.5720673,
+      "bytes": 139105
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/objects/Wall.usd",
+      "destination": "vendor/UniVTAC/assets/objects/Wall.usd",
+      "copied_at": 1794668645.5722702,
+      "bytes": 5971
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/.thumbs/256x256/default_environment.usda.png",
+      "destination": "vendor/UniVTAC/assets/scene/.thumbs/256x256/default_environment.usda.png",
+      "copied_at": 1794668645.5728116,
+      "bytes": 33976
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/.thumbs/256x256/plate.usda.png",
+      "destination": "vendor/UniVTAC/assets/scene/.thumbs/256x256/plate.usda.png",
+      "copied_at": 1794668645.5732086,
+      "bytes": 28500
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/base0.exr",
+      "destination": "vendor/UniVTAC/assets/scene/base0.exr",
+      "copied_at": 1794668645.583638,
+      "bytes": 20159867
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/default_environment.usda",
+      "destination": "vendor/UniVTAC/assets/scene/default_environment.usda",
+      "copied_at": 1794668645.5839365,
+      "bytes": 13907
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/gridroom_curved.usd",
+      "destination": "vendor/UniVTAC/assets/scene/gridroom_curved.usd",
+      "copied_at": 1794668645.5851648,
+      "bytes": 217040
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/plate.usda",
+      "destination": "vendor/UniVTAC/assets/scene/plate.usda",
+      "copied_at": 1794668645.5859694,
+      "bytes": 101314
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/texture/Cherry/Cherry_BaseColor.png",
+      "destination": "vendor/UniVTAC/assets/scene/texture/Cherry/Cherry_BaseColor.png",
+      "copied_at": 1794668645.5919142,
+      "bytes": 2903459
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/texture/Cherry/Cherry_N.png",
+      "destination": "vendor/UniVTAC/assets/scene/texture/Cherry/Cherry_N.png",
+      "copied_at": 1794668645.5976434,
+      "bytes": 3170706
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/texture/Cherry/Cherry_ORM.png",
+      "destination": "vendor/UniVTAC/assets/scene/texture/Cherry/Cherry_ORM.png",
+      "copied_at": 1794668645.6011074,
+      "bytes": 1636382
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/texture/Cherry.mdl",
+      "destination": "vendor/UniVTAC/assets/scene/texture/Cherry.mdl",
+      "copied_at": 1794668645.6012602,
+      "bytes": 1954
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/texture/Wireframe/WireframeBlur_basecolor.png",
+      "destination": "vendor/UniVTAC/assets/scene/texture/Wireframe/WireframeBlur_basecolor.png",
+      "copied_at": 1794668645.6030877,
+      "bytes": 436257
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/texture/Wireframe/WireframeBlur_blue.png",
+      "destination": "vendor/UniVTAC/assets/scene/texture/Wireframe/WireframeBlur_blue.png",
+      "copied_at": 1794668645.6064544,
+      "bytes": 1474958
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/scene/texture/Wireframe/Wireframe_blue.png",
+      "destination": "vendor/UniVTAC/assets/scene/texture/Wireframe/Wireframe_blue.png",
+      "copied_at": 1794668645.6069586,
+      "bytes": 111895
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/textures/Cherry/Cherry_BaseColor.png",
+      "destination": "vendor/UniVTAC/assets/textures/Cherry/Cherry_BaseColor.png",
+      "copied_at": 1794668645.6117465,
+      "bytes": 2903459
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/textures/Cherry/Cherry_N.png",
+      "destination": "vendor/UniVTAC/assets/textures/Cherry/Cherry_N.png",
+      "copied_at": 1794668645.61704,
+      "bytes": 3170706
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/textures/Cherry/Cherry_ORM.png",
+      "destination": "vendor/UniVTAC/assets/textures/Cherry/Cherry_ORM.png",
+      "copied_at": 1794668645.62031,
+      "bytes": 1636382
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/textures/Cherry.mdl",
+      "destination": "vendor/UniVTAC/assets/textures/Cherry.mdl",
+      "copied_at": 1794668645.620587,
+      "bytes": 1945
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/assets/textures/color_121212.hdr",
+      "destination": "vendor/UniVTAC/assets/textures/color_121212.hdr",
+      "copied_at": 1794668645.6207614,
+      "bytes": 109
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/task_config/clean.yml",
+      "destination": "vendor/UniVTAC/task_config/clean.yml",
+      "copied_at": 1794668645.6211333,
+      "bytes": 533
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/task_config/clean51.yml",
+      "destination": "vendor/UniVTAC/task_config/clean51.yml",
+      "copied_at": 1794668645.621235,
+      "bytes": 536
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/task_config/contact.yml",
+      "destination": "vendor/UniVTAC/task_config/contact.yml",
+      "copied_at": 1794668645.6215212,
+      "bytes": 534
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/task_config/demo.yml",
+      "destination": "vendor/UniVTAC/task_config/demo.yml",
+      "copied_at": 1794668645.6216798,
+      "bytes": 534
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/task_config/replay.yml",
+      "destination": "vendor/UniVTAC/task_config/replay.yml",
+      "copied_at": 1794668645.621925,
+      "bytes": 623
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/.gitignore",
+      "destination": "vendor/UniVTAC/policy/ACT/.gitignore",
+      "copied_at": 1794668645.6224272,
+      "bytes": 1930
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/LICENSE",
+      "destination": "vendor/UniVTAC/policy/ACT/LICENSE",
+      "copied_at": 1794668645.6226826,
+      "bytes": 1069
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/README_DEPLOYMENT.md",
+      "destination": "vendor/UniVTAC/policy/ACT/README_DEPLOYMENT.md",
+      "copied_at": 1794668645.6227996,
+      "bytes": 3675
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/__init__.py",
+      "destination": "vendor/UniVTAC/policy/ACT/__init__.py",
+      "copied_at": 1794668645.6229193,
+      "bytes": 29
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/act_policy.py",
+      "destination": "vendor/UniVTAC/policy/ACT/act_policy.py",
+      "copied_at": 1794668645.623049,
+      "bytes": 9305
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/conda_env.yaml",
+      "destination": "vendor/UniVTAC/policy/ACT/conda_env.yaml",
+      "copied_at": 1794668645.6233568,
+      "bytes": 390
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/constants.py",
+      "destination": "vendor/UniVTAC/policy/ACT/constants.py",
+      "copied_at": 1794668645.6234727,
+      "bytes": 3937
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/deploy.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/deploy.yml",
+      "copied_at": 1794668645.6236796,
+      "bytes": 119
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/deploy_policy.py",
+      "destination": "vendor/UniVTAC/policy/ACT/deploy_policy.py",
+      "copied_at": 1794668645.6241248,
+      "bytes": 5351
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/.gitignore",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/.gitignore",
+      "copied_at": 1794668645.624278,
+      "bytes": 7
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/LICENSE",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/LICENSE",
+      "copied_at": 1794668645.6245987,
+      "bytes": 11354
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/README.md",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/README.md",
+      "copied_at": 1794668645.624714,
+      "bytes": 417
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/main.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/main.py",
+      "copied_at": 1794668645.6248353,
+      "bytes": 7507
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/models/__init__.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/models/__init__.py",
+      "copied_at": 1794668645.6249745,
+      "bytes": 281
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/models/backbone.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/models/backbone.py",
+      "copied_at": 1794668645.6251214,
+      "bytes": 7209
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/models/detr_vae.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/models/detr_vae.py",
+      "copied_at": 1794668645.625245,
+      "bytes": 13240
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/models/network.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/models/network.py",
+      "copied_at": 1794668645.6253638,
+      "bytes": 4247
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/models/position_encoding.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/models/position_encoding.py",
+      "copied_at": 1794668645.6254797,
+      "bytes": 3417
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/models/transformer.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/models/transformer.py",
+      "copied_at": 1794668645.6256034,
+      "bytes": 13972
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/setup.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/setup.py",
+      "copied_at": 1794668645.625717,
+      "bytes": 222
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/util/__init__.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/util/__init__.py",
+      "copied_at": 1794668645.6258476,
+      "bytes": 71
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/util/box_ops.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/util/box_ops.py",
+      "copied_at": 1794668645.6259735,
+      "bytes": 2539
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/util/misc.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/util/misc.py",
+      "copied_at": 1794668645.6261005,
+      "bytes": 15573
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/detr/util/plot_utils.py",
+      "destination": "vendor/UniVTAC/policy/ACT/detr/util/plot_utils.py",
+      "copied_at": 1794668645.626215,
+      "bytes": 4577
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/ee_sim_env.py",
+      "destination": "vendor/UniVTAC/policy/ACT/ee_sim_env.py",
+      "copied_at": 1794668645.6263297,
+      "bytes": 12837
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/eval.sh",
+      "destination": "vendor/UniVTAC/policy/ACT/eval.sh",
+      "copied_at": 1794668645.6265938,
+      "bytes": 667
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/imitate_episodes.py",
+      "destination": "vendor/UniVTAC/policy/ACT/imitate_episodes.py",
+      "copied_at": 1794668645.62671,
+      "bytes": 9276
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/one.sh",
+      "destination": "vendor/UniVTAC/policy/ACT/one.sh",
+      "copied_at": 1794668645.626881,
+      "bytes": 1268
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/process_data.py",
+      "destination": "vendor/UniVTAC/policy/ACT/process_data.py",
+      "copied_at": 1794668645.626989,
+      "bytes": 2355
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/process_data.sh",
+      "destination": "vendor/UniVTAC/policy/ACT/process_data.sh",
+      "copied_at": 1794668645.6271572,
+      "bytes": 117
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/record_sim_episodes.py",
+      "destination": "vendor/UniVTAC/policy/ACT/record_sim_episodes.py",
+      "copied_at": 1794668645.627265,
+      "bytes": 7524
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/scripted_policy.py",
+      "destination": "vendor/UniVTAC/policy/ACT/scripted_policy.py",
+      "copied_at": 1794668645.627375,
+      "bytes": 11934
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/sim_env.py",
+      "destination": "vendor/UniVTAC/policy/ACT/sim_env.py",
+      "copied_at": 1794668645.6274874,
+      "bytes": 12997
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train.sh",
+      "destination": "vendor/UniVTAC/policy/ACT/train.sh",
+      "copied_at": 1794668645.6277943,
+      "bytes": 444
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train_config.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/train_config.yml",
+      "copied_at": 1794668645.6279593,
+      "bytes": 792
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train_config_all.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/train_config_all.yml",
+      "copied_at": 1794668645.6281295,
+      "bytes": 735
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train_config_freeze.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/train_config_freeze.yml",
+      "copied_at": 1794668645.6283143,
+      "bytes": 719
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train_config_scrach.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/train_config_scrach.yml",
+      "copied_at": 1794668645.6284757,
+      "bytes": 673
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train_config_tactile_full.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/train_config_tactile_full.yml",
+      "copied_at": 1794668645.6286345,
+      "bytes": 728
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train_config_vision.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/train_config_vision.yml",
+      "copied_at": 1794668645.628805,
+      "bytes": 695
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/train_config_vision_all.yml",
+      "destination": "vendor/UniVTAC/policy/ACT/train_config_vision_all.yml",
+      "copied_at": 1794668645.62899,
+      "bytes": 709
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/utils.py",
+      "destination": "vendor/UniVTAC/policy/ACT/utils.py",
+      "copied_at": 1794668645.6291041,
+      "bytes": 12714
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ACT/visualize_episodes.py",
+      "destination": "vendor/UniVTAC/policy/ACT/visualize_episodes.py",
+      "copied_at": 1794668645.629209,
+      "bytes": 5141
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/clip_pretraining.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/clip_pretraining.py",
+      "copied_at": 1794668645.6295292,
+      "bytes": 19410
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/dataset.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/dataset.py",
+      "copied_at": 1794668645.6296477,
+      "bytes": 3358
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/dataset_test.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/dataset_test.py",
+      "copied_at": 1794668645.629835,
+      "bytes": 1924
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/generate_norm_stats.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/generate_norm_stats.py",
+      "copied_at": 1794668645.6299438,
+      "bytes": 419
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/main.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/main.py",
+      "copied_at": 1794668645.6300526,
+      "bytes": 1194
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/network.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/network.py",
+      "copied_at": 1794668645.6301627,
+      "bytes": 11574
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/norm_stats_fixed.json",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/norm_stats_fixed.json",
+      "copied_at": 1794668645.6302917,
+      "bytes": 1208
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/norm_stats_not_fixed.json",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/norm_stats_not_fixed.json",
+      "copied_at": 1794668645.6304011,
+      "bytes": 1234
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/predict_robot_actions.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/predict_robot_actions.py",
+      "copied_at": 1794668645.6305099,
+      "bytes": 3880
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/process_data_cage.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/process_data_cage.py",
+      "copied_at": 1794668645.6306279,
+      "bytes": 13128
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/robot_main.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/robot_main.py",
+      "copied_at": 1794668645.6307359,
+      "bytes": 2190
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/robot_operation.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/robot_operation.py",
+      "copied_at": 1794668645.6308508,
+      "bytes": 19036
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/robot_operation_old.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/robot_operation_old.py",
+      "copied_at": 1794668645.6309617,
+      "bytes": 14565
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/run_visualizer.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/run_visualizer.py",
+      "copied_at": 1794668645.631065,
+      "bytes": 2472
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/train_args.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/train_args.py",
+      "copied_at": 1794668645.631169,
+      "bytes": 2794
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/train_policy.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/train_policy.py",
+      "copied_at": 1794668645.6312828,
+      "bytes": 17204
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/utils.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/utils.py",
+      "copied_at": 1794668645.631397,
+      "bytes": 12406
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/visualization.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/visualization.py",
+      "copied_at": 1794668645.631505,
+      "bytes": 5568
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/policy/ViTAL/diffusion/visualize_waypts.py",
+      "destination": "vendor/UniVTAC/policy/ViTAL/diffusion/visualize_waypts.py",
+      "copied_at": 1794668645.631613,
+      "bytes": 6646
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/README.md",
+      "destination": "vendor/UniVTAC/scripts/official50/README.md",
+      "copied_at": 1794668645.6320517,
+      "bytes": 5911
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/build_dp_loop.py",
+      "destination": "vendor/UniVTAC/scripts/official50/build_dp_loop.py",
+      "copied_at": 1794668645.6321833,
+      "bytes": 2014
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/campaign.py",
+      "destination": "vendor/UniVTAC/scripts/official50/campaign.py",
+      "copied_at": 1794668645.6322885,
+      "bytes": 3075
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/dp_adapter.py",
+      "destination": "vendor/UniVTAC/scripts/official50/dp_adapter.py",
+      "copied_at": 1794668645.632392,
+      "bytes": 2757
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/dp_train_loop.py",
+      "destination": "vendor/UniVTAC/scripts/official50/dp_train_loop.py",
+      "copied_at": 1794668645.6325028,
+      "bytes": 9416
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/README.md",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/README.md",
+      "copied_at": 1794668645.6326349,
+      "bytes": 7430
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/act_insert_HDMI_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/act_insert_HDMI_rgb.sh",
+      "copied_at": 1794668645.6327708,
+      "bytes": 426
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/act_insert_HDMI_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/act_insert_HDMI_rgb_tactile.sh",
+      "copied_at": 1794668645.6328812,
+      "bytes": 434
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/act_insert_hole_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/act_insert_hole_rgb.sh",
+      "copied_at": 1794668645.6329918,
+      "bytes": 426
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/act_insert_hole_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/act_insert_hole_rgb_tactile.sh",
+      "copied_at": 1794668645.6331065,
+      "bytes": 434
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/act_pull_out_key_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/act_pull_out_key_rgb.sh",
+      "copied_at": 1794668645.6332512,
+      "bytes": 427
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/act_pull_out_key_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/act_pull_out_key_rgb_tactile.sh",
+      "copied_at": 1794668645.633366,
+      "bytes": 435
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/common.py",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/common.py",
+      "copied_at": 1794668645.633477,
+      "bytes": 3904
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/dp_insert_HDMI_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/dp_insert_HDMI_rgb.sh",
+      "copied_at": 1794668645.6335857,
+      "bytes": 425
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/dp_insert_HDMI_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/dp_insert_HDMI_rgb_tactile.sh",
+      "copied_at": 1794668645.6336951,
+      "bytes": 433
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/dp_insert_hole_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/dp_insert_hole_rgb.sh",
+      "copied_at": 1794668645.6338074,
+      "bytes": 425
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/dp_insert_hole_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/dp_insert_hole_rgb_tactile.sh",
+      "copied_at": 1794668645.633914,
+      "bytes": 433
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/dp_pull_out_key_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/dp_pull_out_key_rgb.sh",
+      "copied_at": 1794668645.6340215,
+      "bytes": 426
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/dp_pull_out_key_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/dp_pull_out_key_rgb_tactile.sh",
+      "copied_at": 1794668645.6341286,
+      "bytes": 434
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/policies.py",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/policies.py",
+      "copied_at": 1794668645.6342387,
+      "bytes": 6782
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/runner.py",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/runner.py",
+      "copied_at": 1794668645.6343477,
+      "bytes": 7110
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/test_runner.py",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/test_runner.py",
+      "copied_at": 1794668645.6344583,
+      "bytes": 4468
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/validate_offline.py",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/validate_offline.py",
+      "copied_at": 1794668645.6345665,
+      "bytes": 3943
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation/worker.py",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation/worker.py",
+      "copied_at": 1794668645.6346781,
+      "bytes": 5928
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/evaluation_status.py",
+      "destination": "vendor/UniVTAC/scripts/official50/evaluation_status.py",
+      "copied_at": 1794668645.6347823,
+      "bytes": 889
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/launch_evaluation.py",
+      "destination": "vendor/UniVTAC/scripts/official50/launch_evaluation.py",
+      "copied_at": 1794668645.634912,
+      "bytes": 2030
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/prepare.py",
+      "destination": "vendor/UniVTAC/scripts/official50/prepare.py",
+      "copied_at": 1794668645.6350195,
+      "bytes": 2606
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/retry_evaluation_errors.py",
+      "destination": "vendor/UniVTAC/scripts/official50/retry_evaluation_errors.py",
+      "copied_at": 1794668645.6351314,
+      "bytes": 13749
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/run_act.py",
+      "destination": "vendor/UniVTAC/scripts/official50/run_act.py",
+      "copied_at": 1794668645.6352372,
+      "bytes": 1382
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/run_dp.py",
+      "destination": "vendor/UniVTAC/scripts/official50/run_dp.py",
+      "copied_at": 1794668645.6354043,
+      "bytes": 2953
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/status.py",
+      "destination": "vendor/UniVTAC/scripts/official50/status.py",
+      "copied_at": 1794668645.6355069,
+      "bytes": 696
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/official50/validate.py",
+      "destination": "vendor/UniVTAC/scripts/official50/validate.py",
+      "copied_at": 1794668645.6356113,
+      "bytes": 2088
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/README.md",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/README.md",
+      "copied_at": 1794668645.6361573,
+      "bytes": 10707
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/acceptance.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/acceptance.py",
+      "copied_at": 1794668645.6363406,
+      "bytes": 7542
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/benchmark.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/benchmark.py",
+      "copied_at": 1794668645.6364455,
+      "bytes": 1809
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/benchmark_batches.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/benchmark_batches.py",
+      "copied_at": 1794668645.6365478,
+      "bytes": 2360
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/campaign.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/campaign.py",
+      "copied_at": 1794668645.6366494,
+      "bytes": 2365
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/campaign_five.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/campaign_five.py",
+      "copied_at": 1794668645.6367521,
+      "bytes": 2498
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/check_data.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/check_data.py",
+      "copied_at": 1794668645.6368535,
+      "bytes": 697
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/check_schedule.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/check_schedule.py",
+      "copied_at": 1794668645.636979,
+      "bytes": 1877
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/check_weighting.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/check_weighting.py",
+      "copied_at": 1794668645.6370823,
+      "bytes": 1000
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/common.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/common.py",
+      "copied_at": 1794668645.6371856,
+      "bytes": 2668
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/convert_base.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/convert_base.py",
+      "copied_at": 1794668645.6372864,
+      "bytes": 2328
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/data.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/data.py",
+      "copied_at": 1794668645.637391,
+      "bytes": 5358
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/download_base.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/download_base.py",
+      "copied_at": 1794668645.6374955,
+      "bytes": 2529
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/README.md",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/README.md",
+      "copied_at": 1794668645.6376247,
+      "bytes": 4141
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/campaign.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/campaign.py",
+      "copied_at": 1794668645.637767,
+      "bytes": 5192
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/eval_common.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/eval_common.py",
+      "copied_at": 1794668645.6378777,
+      "bytes": 3875
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/launch.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/launch.sh",
+      "copied_at": 1794668645.6379821,
+      "bytes": 746
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/pi05_adapter.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/pi05_adapter.py",
+      "copied_at": 1794668645.6380897,
+      "bytes": 1966
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_HDMI_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_HDMI_rgb.sh",
+      "copied_at": 1794668645.6382003,
+      "bytes": 432
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_HDMI_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_HDMI_rgb_tactile.sh",
+      "copied_at": 1794668645.6383326,
+      "bytes": 440
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_hole_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_hole_rgb.sh",
+      "copied_at": 1794668645.638442,
+      "bytes": 432
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_hole_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/pi05_insert_hole_rgb_tactile.sh",
+      "copied_at": 1794668645.6385503,
+      "bytes": 440
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/pi05_pull_out_key_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/pi05_pull_out_key_rgb.sh",
+      "copied_at": 1794668645.638658,
+      "bytes": 433
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/pi05_pull_out_key_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/pi05_pull_out_key_rgb_tactile.sh",
+      "copied_at": 1794668645.638768,
+      "bytes": 441
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/runner.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/runner.py",
+      "copied_at": 1794668645.63888,
+      "bytes": 10870
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/start_formal.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/start_formal.py",
+      "copied_at": 1794668645.6389868,
+      "bytes": 2237
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/status.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/status.py",
+      "copied_at": 1794668645.6390924,
+      "bytes": 331
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/test_runner.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/test_runner.py",
+      "copied_at": 1794668645.6392157,
+      "bytes": 7096
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/validate_offline.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/validate_offline.py",
+      "copied_at": 1794668645.6393301,
+      "bytes": 2953
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/evaluation/worker.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/evaluation/worker.py",
+      "copied_at": 1794668645.6394427,
+      "bytes": 6678
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/inference.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/inference.py",
+      "copied_at": 1794668645.639552,
+      "bytes": 1931
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/launch.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/launch.sh",
+      "copied_at": 1794668645.639659,
+      "bytes": 708
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/model.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/model.py",
+      "copied_at": 1794668645.6397758,
+      "bytes": 5182
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/parallel_evaluation.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/parallel_evaluation.py",
+      "copied_at": 1794668645.6398835,
+      "bytes": 5227
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/progress.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/progress.py",
+      "copied_at": 1794668645.6399903,
+      "bytes": 423
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/run_acceptance.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/run_acceptance.sh",
+      "copied_at": 1794668645.6400945,
+      "bytes": 806
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/seal_acceptance.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/seal_acceptance.py",
+      "copied_at": 1794668645.6401994,
+      "bytes": 2771
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/train.py",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/train.py",
+      "copied_at": 1794668645.6403081,
+      "bytes": 8715
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/train_insert_HDMI_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/train_insert_HDMI_rgb.sh",
+      "copied_at": 1794668645.6404126,
+      "bytes": 107
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/train_insert_HDMI_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/train_insert_HDMI_rgb_tactile.sh",
+      "copied_at": 1794668645.640518,
+      "bytes": 115
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/train_insert_hole_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/train_insert_hole_rgb.sh",
+      "copied_at": 1794668645.640625,
+      "bytes": 107
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/train_insert_hole_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/train_insert_hole_rgb_tactile.sh",
+      "copied_at": 1794668645.640729,
+      "bytes": 115
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/train_pull_out_key_rgb.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/train_pull_out_key_rgb.sh",
+      "copied_at": 1794668645.6408324,
+      "bytes": 108
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/pi05_official50/train_pull_out_key_rgb_tactile.sh",
+      "destination": "vendor/UniVTAC/scripts/pi05_official50/train_pull_out_key_rgb_tactile.sh",
+      "copied_at": 1794668645.6409357,
+      "bytes": 116
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/__init__.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/__init__.py",
+      "copied_at": 1794668645.6419199,
+      "bytes": 0
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/conftest.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/conftest.py",
+      "copied_at": 1794668645.642048,
+      "bytes": 339
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/__init__.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/__init__.py",
+      "copied_at": 1794668645.6421762,
+      "bytes": 0
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/fsq_tokenizer_v2.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/fsq_tokenizer_v2.py",
+      "copied_at": 1794668645.64232,
+      "bytes": 15382
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/gemma.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/gemma.py",
+      "copied_at": 1794668645.642437,
+      "bytes": 17146
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/gemma_fast.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/gemma_fast.py",
+      "copied_at": 1794668645.6425538,
+      "bytes": 15643
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/lora.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/lora.py",
+      "copied_at": 1794668645.6427433,
+      "bytes": 5342
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/lora_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/lora_test.py",
+      "copied_at": 1794668645.6428545,
+      "bytes": 3138
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/model.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/model.py",
+      "copied_at": 1794668645.6429636,
+      "bytes": 12270
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/model_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/model_test.py",
+      "copied_at": 1794668645.6430695,
+      "bytes": 2966
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/pi0.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/pi0.py",
+      "copied_at": 1794668645.643187,
+      "bytes": 12887
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/pi0_config.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/pi0_config.py",
+      "copied_at": 1794668645.6433277,
+      "bytes": 4126
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/pi0_fast.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/pi0_fast.py",
+      "copied_at": 1794668645.6434557,
+      "bytes": 13209
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/pi0_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/pi0_test.py",
+      "copied_at": 1794668645.6435702,
+      "bytes": 1631
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/siglip.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/siglip.py",
+      "copied_at": 1794668645.6436877,
+      "bytes": 12078
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/tokenizer.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/tokenizer.py",
+      "copied_at": 1794668645.6438124,
+      "bytes": 17517
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/tokenizer_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/tokenizer_test.py",
+      "copied_at": 1794668645.6439197,
+      "bytes": 807
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/utils/fsq_tokenizer.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/utils/fsq_tokenizer.py",
+      "copied_at": 1794668645.6440625,
+      "bytes": 15928
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models/vit.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models/vit.py",
+      "copied_at": 1794668645.6441767,
+      "bytes": 10266
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/gemma_pytorch.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/gemma_pytorch.py",
+      "copied_at": 1794668645.6443164,
+      "bytes": 13509
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/pi0_pytorch.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/pi0_pytorch.py",
+      "copied_at": 1794668645.644431,
+      "bytes": 19014
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/preprocessing_pytorch.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/preprocessing_pytorch.py",
+      "copied_at": 1794668645.644541,
+      "bytes": 7264
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+      "copied_at": 1794668645.6447375,
+      "bytes": 8958
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+      "copied_at": 1794668645.6448786,
+      "bytes": 36392
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+      "copied_at": 1794668645.645028,
+      "bytes": 27688
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+      "copied_at": 1794668645.645161,
+      "bytes": 133
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+      "copied_at": 1794668645.645308,
+      "bytes": 50231
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/policies/aloha_policy.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/policies/aloha_policy.py",
+      "copied_at": 1794668645.6454477,
+      "bytes": 7543
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/policies/droid_policy.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/policies/droid_policy.py",
+      "copied_at": 1794668645.6455636,
+      "bytes": 3186
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/policies/libero_policy.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/policies/libero_policy.py",
+      "copied_at": 1794668645.6456695,
+      "bytes": 4320
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/policies/policy.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/policies/policy.py",
+      "copied_at": 1794668645.6457775,
+      "bytes": 5344
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/policies/policy_config.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/policies/policy_config.py",
+      "copied_at": 1794668645.645885,
+      "bytes": 4107
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/policies/policy_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/policies/policy_test.py",
+      "copied_at": 1794668645.645992,
+      "bytes": 1127
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/policies/ur5e_policy.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/policies/ur5e_policy.py",
+      "copied_at": 1794668645.6461267,
+      "bytes": 2818
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/py.typed",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/py.typed",
+      "copied_at": 1794668645.646236,
+      "bytes": 0
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/serving/websocket_policy_server.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/serving/websocket_policy_server.py",
+      "copied_at": 1794668645.6463668,
+      "bytes": 3111
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/__init__.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/__init__.py",
+      "copied_at": 1794668645.6464832,
+      "bytes": 0
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/array_typing.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/array_typing.py",
+      "copied_at": 1794668645.646606,
+      "bytes": 3402
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/download.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/download.py",
+      "copied_at": 1794668645.6467102,
+      "bytes": 7817
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/download_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/download_test.py",
+      "copied_at": 1794668645.6468134,
+      "bytes": 1490
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/image_tools.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/image_tools.py",
+      "copied_at": 1794668645.646918,
+      "bytes": 4665
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/image_tools_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/image_tools_test.py",
+      "copied_at": 1794668645.6470213,
+      "bytes": 1418
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/nnx_utils.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/nnx_utils.py",
+      "copied_at": 1794668645.6471274,
+      "bytes": 2844
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/normalize.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/normalize.py",
+      "copied_at": 1794668645.6472583,
+      "bytes": 5529
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/shared/normalize_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/shared/normalize_test.py",
+      "copied_at": 1794668645.6473634,
+      "bytes": 1521
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/checkpoints.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/checkpoints.py",
+      "copied_at": 1794668645.6475353,
+      "bytes": 5763
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/config.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/config.py",
+      "copied_at": 1794668645.6476629,
+      "bytes": 53527
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/data_loader.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/data_loader.py",
+      "copied_at": 1794668645.647781,
+      "bytes": 19993
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/data_loader_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/data_loader_test.py",
+      "copied_at": 1794668645.6478825,
+      "bytes": 2487
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/droid_rlds_dataset.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/droid_rlds_dataset.py",
+      "copied_at": 1794668645.6479876,
+      "bytes": 9305
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/misc/roboarena_config.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/misc/roboarena_config.py",
+      "copied_at": 1794668645.6481245,
+      "bytes": 4804
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/optimizer.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/optimizer.py",
+      "copied_at": 1794668645.6482296,
+      "bytes": 3202
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/sharding.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/sharding.py",
+      "copied_at": 1794668645.6483672,
+      "bytes": 4100
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/utils.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/utils.py",
+      "copied_at": 1794668645.6484733,
+      "bytes": 1217
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/training/weight_loaders.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/training/weight_loaders.py",
+      "copied_at": 1794668645.6485846,
+      "bytes": 3738
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/transforms.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/transforms.py",
+      "copied_at": 1794668645.6487014,
+      "bytes": 15752
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/src/openpi/transforms_test.py",
+      "destination": "vendor/OpenPI-RoboLab/src/openpi/transforms_test.py",
+      "copied_at": 1794668645.6488109,
+      "bytes": 4111
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/__init__.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/__init__.py",
+      "copied_at": 1794668645.649191,
+      "bytes": 22
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+      "copied_at": 1794668645.6493204,
+      "bytes": 1404
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/base_policy.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/base_policy.py",
+      "copied_at": 1794668645.6494317,
+      "bytes": 271
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/image_tools.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/image_tools.py",
+      "copied_at": 1794668645.6495447,
+      "bytes": 2426
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/image_tools_test.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/image_tools_test.py",
+      "copied_at": 1794668645.649659,
+      "bytes": 1411
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+      "copied_at": 1794668645.6497717,
+      "bytes": 1944
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+      "copied_at": 1794668645.649929,
+      "bytes": 1643
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/agent.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/agent.py",
+      "copied_at": 1794668645.650139,
+      "bytes": 465
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+      "copied_at": 1794668645.65027,
+      "bytes": 509
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/environment.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/environment.py",
+      "copied_at": 1794668645.6503823,
+      "bytes": 1044
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/runtime.py",
+      "copied_at": 1794668645.6504931,
+      "bytes": 3049
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+      "copied_at": 1794668645.6506023,
+      "bytes": 500
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+      "destination": "vendor/OpenPI-RoboLab/packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+      "copied_at": 1794668645.6507115,
+      "bytes": 2131
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/LICENSE",
+      "destination": "vendor/UniVTAC/LICENSE",
+      "copied_at": 1794671657.2434292,
+      "bytes": 11357
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/LICENSE",
+      "destination": "vendor/OpenPI-RoboLab/LICENSE",
+      "copied_at": 1794671657.2438672,
+      "bytes": 11356
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/OpenPI-RoboLab/LICENSE_GEMMA.txt",
+      "destination": "vendor/OpenPI-RoboLab/LICENSE_GEMMA.txt",
+      "copied_at": 1794671657.2441058,
+      "bytes": 8431
+    },
+    {
+      "source": "/root/autodl-tmp/gujie/UniVTAC/scripts/replay.py",
+      "destination": "vendor/UniVTAC/scripts/replay.py",
+      "copied_at": 1794685542.6575048,
+      "bytes": 18942
+    }
+  ],
+  "changes": [
+    {
+      "at": 1794686098.5645776,
+      "purpose": "Version-aware read-only episode resolution for demonstration repair",
+      "files": [
+        "UniVTAC/policy/ACT/utils.py",
+        "UniVTAC/scripts/official50/dp_adapter.py",
+        "UniVTAC/scripts/pi05_official50/data.py"
+      ],
+      "source_copies_preserved": true
+    }
+  ]
+}

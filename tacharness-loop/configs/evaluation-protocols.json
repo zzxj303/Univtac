@@ -1,0 +1,31 @@
+{
+  "act_insert_hole_rgb_tactile": {
+    "reset_retries": 1,
+    "policy_failure_retries": 0,
+    "source": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/exception_reruns/20261114T110428Z/plan.json",
+    "observed_rerun_seeds": [
+      20013
+    ],
+    "note": "One actual replacement trial per affected seed in this target group; launch-only restarts are not additional policy trials."
+  },
+  "dp_insert_hole_rgb_tactile": {
+    "reset_retries": 1,
+    "policy_failure_retries": 0,
+    "source": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/exception_reruns/20261114T110428Z/plan.json",
+    "observed_rerun_seeds": [
+      20004
+    ],
+    "note": "One actual replacement trial per affected seed in this target group; launch-only restarts are not additional policy trials."
+  },
+  "pi05_insert_hole_rgb": {
+    "reset_retries": 1,
+    "policy_failure_retries": 0,
+    "source": "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/exception_reruns/20261114T121543Z/status.json",
+    "observed_rerun_seeds": [
+      20006,
+      20007,
+      20022
+    ],
+    "note": "One actual replacement trial per affected seed in this target group; launch-only restarts are not additional policy trials."
+  }
+}

@@ -1,0 +1,1 @@
+{"benchmark":"libero","adapter":"implement adapters.base.BenchmarkAdapter on the LIBERO server","enabled":false,"feedback_seeds":[10001,10030],"test_seeds":[10031,10060],"rounds":3,"targets":["libero_plate_act_rgbt","libero_plate_dp_rgbt","libero_drawer_pi05_rgbt"],"note":"Seed pairs describe inclusive ranges. No remote resources are accessed by this installation."}

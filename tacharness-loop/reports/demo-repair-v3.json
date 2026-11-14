@@ -1,0 +1,292 @@
+{
+  "protocol": "demo-repair-v3",
+  "completed_at": 1794687435.4710088,
+  "implementation": "implemented and native acceptance completed",
+  "scope": "Development validation. No formal v3 calibration, feedback improvement experiment, or held-out test rerun.",
+  "unit_tests": {
+    "passed": 51,
+    "failures": 0,
+    "errors": 0
+  },
+  "actual_llm_calls": [
+    {
+      "receipt": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/univtac_hole_dp_rgbt/harness/attempt-1/receipt.json",
+      "reason": "demo_v3_development",
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "termination": null,
+      "verification": {
+        "passed": true,
+        "reasons": [],
+        "evidence_valid": 13,
+        "evidence_total": 13,
+        "fact_errors": [],
+        "schema_valid": true
+      },
+      "tool_counts": {
+        "requested": 35,
+        "executed": 35,
+        "rejected_at_limit": 0
+      },
+      "model_requests": 10,
+      "input_tokens": 391378,
+      "cached_input_tokens": 329344,
+      "output_tokens": 4696,
+      "total_tokens": 396074
+    },
+    {
+      "receipt": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/harness/attempt-1/receipt.json",
+      "reason": "synthetic_repair_acceptance",
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "termination": null,
+      "verification": {
+        "passed": false,
+        "reasons": [
+          "Missing demonstrations inspection evidence",
+          "Missing demonstration image inspection"
+        ],
+        "evidence_valid": 13,
+        "evidence_total": 13,
+        "fact_errors": [],
+        "schema_valid": true
+      },
+      "tool_counts": {
+        "requested": 35,
+        "executed": 35,
+        "rejected_at_limit": 0
+      },
+      "model_requests": 11,
+      "input_tokens": 511435,
+      "cached_input_tokens": 441344,
+      "output_tokens": 4629,
+      "total_tokens": 516064
+    },
+    {
+      "receipt": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/harness/attempt-2/receipt.json",
+      "reason": "synthetic_repair_broker_recovery",
+      "actual_model": "gpt-6-astra",
+      "actual_effort": "medium",
+      "termination": null,
+      "verification": {
+        "passed": true,
+        "reasons": [],
+        "evidence_valid": 16,
+        "evidence_total": 16,
+        "fact_errors": [],
+        "schema_valid": true
+      },
+      "tool_counts": {
+        "requested": 36,
+        "executed": 34,
+        "rejected_at_limit": 0
+      },
+      "model_requests": 34,
+      "input_tokens": 1443212,
+      "cached_input_tokens": 1387136,
+      "output_tokens": 6453,
+      "total_tokens": 1449665
+    }
+  ],
+  "llm_development_totals": {
+    "model_requests": 55,
+    "input_tokens": 2346025,
+    "cached_input_tokens": 2157824,
+    "output_tokens": 15778,
+    "total_tokens": 2361803
+  },
+  "pristine_demo_replay": {
+    "success": true,
+    "phase": "replay",
+    "actions": 179,
+    "seed": 27,
+    "complete_trajectory": true,
+    "tracking_rmse": 3.304472431053447e-05,
+    "early_stop": false,
+    "recording": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/native-demo-27/27/original/recording.hdf5",
+    "termination": "native_success",
+    "elapsed_s": 200.00068950653076
+  },
+  "synthetic_fixture": {
+    "purpose": "Known local joint-0 offset on an independent copy; not an original-data defect",
+    "trials": [
+      {
+        "demo_id": 27,
+        "kind": "original",
+        "folder": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/original",
+        "started_at": 1794686026.4409347,
+        "success": true,
+        "phase": "replay",
+        "actions": 179,
+        "elapsed_s": 224.06283020973206,
+        "tracking_rmse": 0.0035145504861035255,
+        "error": null
+      },
+      {
+        "demo_id": 27,
+        "kind": "candidate-1",
+        "folder": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/candidate-1",
+        "started_at": 1794686306.2732918,
+        "success": false,
+        "phase": "create_environment",
+        "actions": 0,
+        "elapsed_s": 11.426600933074951,
+        "tracking_rmse": null,
+        "error": "RuntimeError('Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 304: OS call failed or operation not supported on this OS')"
+      },
+      {
+        "demo_id": 27,
+        "kind": "candidate-2",
+        "folder": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/candidate-2",
+        "started_at": 1794686504.6919053,
+        "success": true,
+        "phase": "replay",
+        "actions": 179,
+        "elapsed_s": 202.24635791778564,
+        "tracking_rmse": 3.1440643562179e-05,
+        "error": null
+      },
+      {
+        "demo_id": 27,
+        "kind": "verify",
+        "folder": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/verify",
+        "started_at": 1794686724.178241,
+        "success": true,
+        "phase": "replay",
+        "actions": 179,
+        "elapsed_s": 201.37182760238647,
+        "tracking_rmse": 6.86978006403954e-05,
+        "error": null
+      }
+    ],
+    "attempted_simulations": 4,
+    "maximum_simulations": 4,
+    "acceptance": {
+      "accepted": true,
+      "demo_id": 27,
+      "group": "univtac_hole_dp_rgbt",
+      "task": "insert_hole",
+      "scope": "synthetic technical acceptance only",
+      "candidate": "candidate-2",
+      "recording": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/verify/recording.hdf5",
+      "criterion": "native success twice; if original successful, lower reference tracking RMSE twice",
+      "candidate_result": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/candidate-2/result.json",
+      "verification_result": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/verify/result.json",
+      "acceptance_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/27/acceptance.json"
+    }
+  },
+  "policy_loader_training_acceptance": {
+    "passed": true,
+    "results": [
+      {
+        "policy": "act",
+        "artifact": {
+          "id": "univtac_hole_act_rgbt:demo-v3-validation/training/act",
+          "checkpoint": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/act/train/policy_step_20.ckpt",
+          "config": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/act/train/config.yml",
+          "stats": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/act/train/dataset_stats.pkl",
+          "train_dir": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/act/train",
+          "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_act_rgbt/bfe6d875979b40fc90333890fe29d89a/manifest.json"
+        },
+        "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_act_rgbt/bfe6d875979b40fc90333890fe29d89a/manifest.json",
+        "modified_demo_path": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_act_rgbt/bfe6d875979b40fc90333890fe29d89a/episode_27.hdf5",
+        "training_receipt": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/act/train/training_receipt.json",
+        "actual_updates": 20,
+        "strict_reload": true,
+        "parameter_sample_changed": true,
+        "scope": "synthetic development acceptance only; one physics repair reused across policy loaders"
+      },
+      {
+        "policy": "dp",
+        "artifact": {
+          "id": "univtac_hole_dp_rgbt:demo-v3-validation/training/dp",
+          "checkpoint": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/dp/train/policy_step_20.ckpt",
+          "config": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/dp/train/config.json",
+          "stats": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/dp/train/dataset_stats.npz",
+          "train_dir": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/dp/train",
+          "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_dp_rgbt/a8014de9284a4c6dbb0284ec9c07cc03/manifest.json"
+        },
+        "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_dp_rgbt/a8014de9284a4c6dbb0284ec9c07cc03/manifest.json",
+        "modified_demo_path": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_dp_rgbt/a8014de9284a4c6dbb0284ec9c07cc03/episode_27.hdf5",
+        "training_receipt": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/dp/train/training_receipt.json",
+        "actual_updates": 20,
+        "strict_reload": true,
+        "parameter_sample_changed": true,
+        "scope": "synthetic development acceptance only; one physics repair reused across policy loaders"
+      },
+      {
+        "policy": "pi05",
+        "artifact": {
+          "id": "univtac_hole_pi05_rgb:demo-v3-validation/training/pi05",
+          "checkpoint": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/pi05/train/step_20.pt",
+          "config": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/pi05/train/config.json",
+          "stats": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/pi05/train/stats.json",
+          "train_dir": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/pi05/train",
+          "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_pi05_rgb/9af9dff760cf49c6b507304d12416ca1/manifest.json"
+        },
+        "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_pi05_rgb/9af9dff760cf49c6b507304d12416ca1/manifest.json",
+        "modified_demo_path": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_pi05_rgb/9af9dff760cf49c6b507304d12416ca1/episode_27.hdf5",
+        "training_receipt": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/training/pi05/train/training_receipt.json",
+        "actual_updates": 20,
+        "strict_reload": true,
+        "parameter_sample_changed": true,
+        "scope": "synthetic development acceptance only; one physics repair reused across policy loaders"
+      }
+    ],
+    "policy_feedback_evaluation": false
+  },
+  "exact_model_selected_update": {
+    "scope": "model-selected update on synthetic development data, not formal performance evaluation",
+    "model_requirement": "/root/autodl-tmp/gujie/tacharness-loop/runs/repairs/acceptance-v3/synthetic-local-offset/harness/attempt-2/requirement.json",
+    "artifact": {
+      "id": "univtac_hole_dp_rgbt:demo-v3-validation/model-selected-update",
+      "checkpoint": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/model-selected-update/train/policy_step_500.ckpt",
+      "config": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/model-selected-update/train/config.json",
+      "stats": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/model-selected-update/train/dataset_stats.npz",
+      "train_dir": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/model-selected-update/train",
+      "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_dp_rgbt/4c0addb5e14a47a982fb280d7b4cb7a8/manifest.json"
+    },
+    "resolved_parameters": {
+      "steps": 500,
+      "lr_scale": 0.1,
+      "checkpoint_ids": [],
+      "train_ids": [
+        27
+      ],
+      "dataset_version": "/root/autodl-tmp/gujie/tacharness-loop/runs/datasets/univtac_hole_dp_rgbt/4c0addb5e14a47a982fb280d7b4cb7a8/manifest.json"
+    },
+    "training_receipt": "/root/autodl-tmp/gujie/tacharness-loop/runs/demo-v3-validation/model-selected-update/train/training_receipt.json",
+    "updates_match_model": true,
+    "strict_reload": true,
+    "parameter_sample_changed": true
+  },
+  "formal_experiment": {
+    "input_groups": 18,
+    "calibrated": false,
+    "started": false,
+    "old_inputs_and_gates_preserved": true
+  },
+  "readonly_audit": {
+    "at": 1794687435.4682267,
+    "command": [
+      "find",
+      "/root/autodl-tmp/gujie/UniVTAC",
+      "-newer",
+      "/root/autodl-tmp/gujie/tacharness-loop/.start_marker",
+      "-type",
+      "f"
+    ],
+    "changed_files": [],
+    "missing_roots": [
+      "/root/autodl-tmp/gujie/lab"
+    ]
+  },
+  "libero": "Adapter interface only; no remote access",
+  "limitations": [
+    "The synthetic repair validates execution and data provenance, not improved benchmark success.",
+    "One direct model-child simulator launch failed with CUDA error 304 before actions; it remains charged. The independent broker resolved that execution path.",
+    "The first synthetic CLI requirement failed coverage checks; the recovery requirement passed with all 16 citations valid. Both calls are included in costs.",
+    "Training validation loss and benchmark success are distinct; the model-selected 500-update experiment has not undergone feedback evaluation.",
+    "Formal v3 use requires its own 18-call initial harness calibration before group loops."
+  ]
+}

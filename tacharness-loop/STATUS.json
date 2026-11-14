@@ -1,0 +1,499 @@
+{
+  "updated_at": 1794686918.1237624,
+  "implementation": "implemented",
+  "experiment_state": "complete",
+  "baseline_parser": {
+    "groups": 18,
+    "episodes": 540,
+    "successes": 50
+  },
+  "unit_tests": {
+    "at": 1794676360.2778442,
+    "tests": 28,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "token_budget": {
+    "n": 18,
+    "p95_single_call": 257062.75,
+    "tokens_per_group": 1156783,
+    "frozen_at": 1794669808.5945969
+  },
+  "diagnostics": [
+    {
+      "condition": "harness",
+      "first_calls": 18,
+      "metered_calls": 18,
+      "actual_models": [
+        "gpt-6-astra"
+      ],
+      "actual_efforts": [
+        "medium"
+      ]
+    },
+    {
+      "condition": "raw",
+      "first_calls": 18,
+      "metered_calls": 18,
+      "actual_models": [
+        "gpt-6-astra"
+      ],
+      "actual_efforts": [
+        "medium"
+      ]
+    }
+  ],
+  "training_acceptance": [
+    {
+      "policy": "act",
+      "action": "finetune_more",
+      "receipt": "runs/acceptance/act/finetune_more/train/training_receipt.json",
+      "actual_updates": 50,
+      "strict_reload": true,
+      "parameter_sample_changed": true,
+      "seconds": 66.0260260105133,
+      "peak_cuda_bytes": 10085249024
+    },
+    {
+      "policy": "act",
+      "action": "finetune_data",
+      "receipt": "runs/acceptance/act/finetune_data/train/training_receipt.json",
+      "actual_updates": 50,
+      "strict_reload": true,
+      "parameter_sample_changed": true,
+      "seconds": 60.92793273925781,
+      "peak_cuda_bytes": 10085249024
+    },
+    {
+      "policy": "dp",
+      "action": "finetune_more",
+      "receipt": "runs/acceptance/dp/finetune_more/train/training_receipt.json",
+      "actual_updates": 50,
+      "strict_reload": true,
+      "parameter_sample_changed": true,
+      "seconds": 10.481629610061646,
+      "peak_cuda_bytes": 3083316736
+    },
+    {
+      "policy": "dp",
+      "action": "finetune_data",
+      "receipt": "runs/acceptance/dp/finetune_data/train/training_receipt.json",
+      "actual_updates": 50,
+      "strict_reload": true,
+      "parameter_sample_changed": true,
+      "seconds": 13.347171545028687,
+      "peak_cuda_bytes": 3083316736
+    },
+    {
+      "policy": "pi05",
+      "action": "finetune_more",
+      "receipt": "runs/acceptance/pi05/finetune_more/train/training_receipt.json",
+      "actual_updates": 50,
+      "strict_reload": true,
+      "parameter_sample_changed": true,
+      "seconds": 371.4714605808258,
+      "peak_cuda_bytes": 15913317376
+    },
+    {
+      "policy": "pi05",
+      "action": "finetune_data",
+      "receipt": "runs/acceptance/pi05/finetune_data/train/training_receipt.json",
+      "actual_updates": 50,
+      "strict_reload": true,
+      "parameter_sample_changed": true,
+      "seconds": 361.2725307941437,
+      "peak_cuda_bytes": 15913317376
+    }
+  ],
+  "feedback_acceptance": [
+    {
+      "policy": "act",
+      "action": "select_ckpt",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_act_rgbt:baseline",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 0,
+        "counts": {
+          "success": 0,
+          "failure": 2,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794670485.52553
+      },
+      "startup_recovery": null
+    },
+    {
+      "policy": "act",
+      "action": "finetune_more",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_act_rgbt:acceptance/act/finetune_more",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 0,
+        "counts": {
+          "success": 0,
+          "failure": 2,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794673210.064654
+      },
+      "startup_recovery": null
+    },
+    {
+      "policy": "act",
+      "action": "finetune_data",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_act_rgbt:acceptance/act/finetune_data",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 0,
+        "counts": {
+          "success": 0,
+          "failure": 2,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794672707.7208855
+      },
+      "startup_recovery": null
+    },
+    {
+      "policy": "dp",
+      "action": "select_ckpt",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_dp_rgbt:baseline",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 1,
+        "counts": {
+          "success": 1,
+          "failure": 1,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794671050.381695
+      },
+      "startup_recovery": null
+    },
+    {
+      "policy": "dp",
+      "action": "finetune_more",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_dp_rgbt:acceptance/dp/finetune_more",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 0,
+        "counts": {
+          "success": 0,
+          "failure": 2,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794673920.5555887
+      },
+      "startup_recovery": null
+    },
+    {
+      "policy": "dp",
+      "action": "finetune_data",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_dp_rgbt:acceptance/dp/finetune_data",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 0,
+        "counts": {
+          "success": 0,
+          "failure": 2,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794676598.5331862
+      },
+      "startup_recovery": {
+        "status": "passed_after_startup_recovery",
+        "finished_at": 1794676598.8751802,
+        "scope": "technical acceptance only",
+        "artifact_id": "univtac_hole_dp_rgbt:acceptance/dp/finetune_data",
+        "original_failed_result": "/root/autodl-tmp/gujie/tacharness-loop/runs/acceptance/dp/finetune_data/feedback/20002/result.json",
+        "feedback": "/root/autodl-tmp/gujie/tacharness-loop/runs/acceptance/dp/finetune_data/feedback-startup-recovery",
+        "original_startup_failures": 1,
+        "policy_trials": 2,
+        "reused_policy_seeds": [
+          20001
+        ],
+        "summary": {
+          "complete": true,
+          "artifact_id": "univtac_hole_dp_rgbt:acceptance/dp/finetune_data",
+          "seeds": [
+            20001,
+            20002
+          ],
+          "successes": 0,
+          "counts": {
+            "success": 0,
+            "failure": 2,
+            "init_error": 0,
+            "other_error": 0
+          },
+          "finished_at": 1794676598.5331862
+        }
+      }
+    },
+    {
+      "policy": "pi05",
+      "action": "select_ckpt",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_pi05_rgb:baseline",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 0,
+        "counts": {
+          "success": 0,
+          "failure": 2,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794671297.373319
+      },
+      "startup_recovery": null
+    },
+    {
+      "policy": "pi05",
+      "action": "finetune_more",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_pi05_rgb:acceptance/pi05/finetune_more",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 0,
+        "counts": {
+          "success": 0,
+          "failure": 2,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794674834.1269076
+      },
+      "startup_recovery": null
+    },
+    {
+      "policy": "pi05",
+      "action": "finetune_data",
+      "complete": true,
+      "completed_seeds": 2,
+      "expected_seeds": 2,
+      "summary": {
+        "complete": true,
+        "artifact_id": "univtac_hole_pi05_rgb:acceptance/pi05/finetune_data",
+        "seeds": [
+          20001,
+          20002
+        ],
+        "successes": 1,
+        "counts": {
+          "success": 1,
+          "failure": 1,
+          "init_error": 0,
+          "other_error": 0
+        },
+        "finished_at": 1794676067.1535294
+      },
+      "startup_recovery": null
+    }
+  ],
+  "private_tests": [
+    {
+      "group": "univtac_hole_act_rgbt",
+      "completed_seeds": 30,
+      "expected_seeds": 30,
+      "successes_so_far": 1,
+      "complete": true
+    },
+    {
+      "group": "univtac_hole_dp_rgbt",
+      "completed_seeds": 30,
+      "expected_seeds": 30,
+      "successes_so_far": 5,
+      "complete": true
+    },
+    {
+      "group": "univtac_hole_pi05_rgb",
+      "completed_seeds": 30,
+      "expected_seeds": 30,
+      "successes_so_far": 0,
+      "complete": true
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "4fd49f3e-94a6-4565-bfad-043d6203bab0",
+      "group": "univtac_hole_act_rgbt",
+      "selected_round": 0,
+      "artifact": {
+        "id": "univtac_hole_act_rgbt:baseline",
+        "checkpoint": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/act/insert_hole/rgb_tactile/policy_best.ckpt",
+        "config": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/act/insert_hole/rgb_tactile/config.yml",
+        "stats": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/act/insert_hole/rgb_tactile/dataset_stats.pkl",
+        "train_dir": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/act/insert_hole/rgb_tactile"
+      },
+      "feedback_successes": 10,
+      "stop_reason": "diagnosis_failed",
+      "spent": {
+        "calls": 2,
+        "requests": 12,
+        "tokens": 269770,
+        "complete": true
+      },
+      "sealed_at": 1794676601.8912818
+    },
+    {
+      "gate_id": "e4be75aa-4ad9-439a-85e5-dd2b188ec4f8",
+      "group": "univtac_hole_dp_rgbt",
+      "selected_round": 0,
+      "artifact": {
+        "id": "univtac_hole_dp_rgbt:baseline",
+        "checkpoint": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/policy_best.ckpt",
+        "config": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/config.json",
+        "stats": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/dataset_stats.npz",
+        "train_dir": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile"
+      },
+      "feedback_successes": 5,
+      "stop_reason": "agent_stop",
+      "spent": {
+        "calls": 1,
+        "requests": 6,
+        "tokens": 151135,
+        "complete": true
+      },
+      "sealed_at": 1794676602.2308154
+    },
+    {
+      "gate_id": "53c4f964-1697-492a-a60a-b9e43d21803a",
+      "group": "univtac_hole_pi05_rgb",
+      "selected_round": 0,
+      "artifact": {
+        "id": "univtac_hole_pi05_rgb:baseline",
+        "checkpoint": "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/best.pt",
+        "config": "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/config.json",
+        "stats": "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/stats.json",
+        "train_dir": "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb"
+      },
+      "feedback_successes": 2,
+      "stop_reason": "agent_stop",
+      "spent": {
+        "calls": 1,
+        "requests": 6,
+        "tokens": 150792,
+        "complete": true
+      },
+      "sealed_at": 1794676602.230744
+    }
+  ],
+  "last_readonly_audit": {
+    "at": 1794686883.1092412,
+    "command": [
+      "find",
+      "/root/autodl-tmp/gujie/UniVTAC",
+      "-newer",
+      "/root/autodl-tmp/gujie/tacharness-loop/.start_marker",
+      "-type",
+      "f"
+    ],
+    "changed_files": [],
+    "missing_roots": [
+      "/root/autodl-tmp/gujie/lab"
+    ]
+  },
+  "diagnostic_ablation": {
+    "raw": {
+      "calls": 18,
+      "evidence_valid": 158,
+      "evidence_total": 158,
+      "evidence_valid_rate": 1.0,
+      "mean_per_call_evidence_valid_rate": 0.8888888888888888,
+      "fact_errors": 6,
+      "all_fact_field_errors": 12,
+      "fact_comparable_calls": 16,
+      "schema_invalid_or_missing_calls": 2,
+      "valid_requirements": 10,
+      "terminated_calls": 2,
+      "model_requests": 122,
+      "input_tokens": 3042297,
+      "cached_input_tokens": 2330240,
+      "output_tokens": 34207,
+      "elapsed_s": 1120.4762880802155
+    },
+    "harness": {
+      "calls": 18,
+      "evidence_valid": 120,
+      "evidence_total": 120,
+      "evidence_valid_rate": 1.0,
+      "mean_per_call_evidence_valid_rate": 0.8888888888888888,
+      "fact_errors": 6,
+      "all_fact_field_errors": 12,
+      "fact_comparable_calls": 16,
+      "schema_invalid_or_missing_calls": 2,
+      "valid_requirements": 9,
+      "terminated_calls": 2,
+      "model_requests": 127,
+      "input_tokens": 3264655,
+      "cached_input_tokens": 2492160,
+      "output_tokens": 31825,
+      "elapsed_s": 1076.3866515159607
+    }
+  },
+  "libero": "Interface only; no remote server accessed",
+  "evolution": "excluded",
+  "checksums": "not used"
+}

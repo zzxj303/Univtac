@@ -1,0 +1,6 @@
+{
+  "path": "/dev/shm",
+  "scope": "temporary shared memory and named semaphores required by Isaac/Carb",
+  "authorized_by": "user",
+  "recorded_at": 1794669663.0617518
+}

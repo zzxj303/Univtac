@@ -1,0 +1,10 @@
+runtime/
+runs/
+__pycache__/
+*.pyc
+.start_marker
+
+# Local dataset link and machine-specific credentials
+vendor/UniVTAC/data
+.env
+.env.*

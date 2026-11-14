@@ -1,0 +1,319 @@
+{
+  "type": "object",
+  "properties": {
+    "failure": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": [
+            "data",
+            "training",
+            "selection",
+            "control",
+            "eval_noise"
+          ]
+        },
+        "conclusion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "category",
+        "conclusion"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "value_json": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source",
+          "field",
+          "value_json"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "facts": {
+      "type": "object",
+      "properties": {
+        "feedback_artifact_id": {
+          "type": "string"
+        },
+        "seeds": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "feedback_successes": {
+          "type": "integer"
+        },
+        "termination_counts": {
+          "type": "object",
+          "properties": {
+            "success": {
+              "type": "integer"
+            },
+            "max_steps": {
+              "type": "integer"
+            },
+            "early_stop": {
+              "type": "integer"
+            },
+            "exception": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "success",
+            "max_steps",
+            "early_stop",
+            "exception"
+          ],
+          "additionalProperties": false
+        },
+        "training_run": {
+          "type": "string"
+        },
+        "best_validation_step": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "unavailable_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "feedback_artifact_id",
+        "seeds",
+        "feedback_successes",
+        "termination_counts",
+        "training_run",
+        "best_validation_step",
+        "unavailable_reason"
+      ],
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "select_ckpt",
+        "finetune_more",
+        "finetune_data",
+        "stop"
+      ]
+    },
+    "init_from": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parameters": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "steps": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "lr_scale": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "checkpoint_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "train_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "dataset_version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "steps",
+            "lr_scale",
+            "checkpoint_ids",
+            "train_ids",
+            "dataset_version"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "prediction": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "stop_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "repair_intent": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "demo_id": {
+            "type": "integer"
+          },
+          "start": {
+            "type": "integer"
+          },
+          "stop": {
+            "type": "integer"
+          },
+          "issue": {
+            "type": "string"
+          },
+          "goal": {
+            "type": "string",
+            "enum": [
+              "native_success",
+              "tracking_rmse"
+            ]
+          }
+        },
+        "required": [
+          "demo_id",
+          "start",
+          "stop",
+          "issue",
+          "goal"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "inspection": {
+      "type": "object",
+      "properties": {
+        "demonstrations": {
+          "type": "object",
+          "properties": {
+            "evidence_indices": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "unavailable_reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "evidence_indices",
+            "unavailable_reason"
+          ],
+          "additionalProperties": false
+        },
+        "training": {
+          "type": "object",
+          "properties": {
+            "evidence_indices": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "unavailable_reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "evidence_indices",
+            "unavailable_reason"
+          ],
+          "additionalProperties": false
+        },
+        "feedback": {
+          "type": "object",
+          "properties": {
+            "evidence_indices": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "unavailable_reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "evidence_indices",
+            "unavailable_reason"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "demonstrations",
+        "training",
+        "feedback"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "failure",
+    "evidence",
+    "facts",
+    "decision",
+    "init_from",
+    "parameters",
+    "prediction",
+    "stop_reason",
+    "repair_intent",
+    "inspection"
+  ],
+  "additionalProperties": false
+}

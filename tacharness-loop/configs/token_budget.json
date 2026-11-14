@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "frozen_at": 1794669808.5945969,
+  "samples": [
+    {
+      "group": "univtac_act_insert_HDMI_rgb",
+      "total_tokens": 146856,
+      "input_tokens": 145236,
+      "cached_input_tokens": 105856,
+      "output_tokens": 1620,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_act_insert_HDMI_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_act_insert_HDMI_rgb_tactile",
+      "total_tokens": 190118,
+      "input_tokens": 188207,
+      "cached_input_tokens": 136320,
+      "output_tokens": 1911,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_act_insert_HDMI_rgb_tactile/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_act_insert_hole_rgb",
+      "total_tokens": 187049,
+      "input_tokens": 185022,
+      "cached_input_tokens": 145920,
+      "output_tokens": 2027,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_act_insert_hole_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_hole_act_rgbt",
+      "total_tokens": 155117,
+      "input_tokens": 153263,
+      "cached_input_tokens": 110336,
+      "output_tokens": 1854,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_hole_act_rgbt/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_act_pull_out_key_rgb",
+      "total_tokens": 150519,
+      "input_tokens": 148714,
+      "cached_input_tokens": 112896,
+      "output_tokens": 1805,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_act_pull_out_key_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_act_pull_out_key_rgb_tactile",
+      "total_tokens": 234268,
+      "input_tokens": 232147,
+      "cached_input_tokens": 191360,
+      "output_tokens": 2121,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_act_pull_out_key_rgb_tactile/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_dp_insert_HDMI_rgb",
+      "total_tokens": 261164,
+      "input_tokens": 258837,
+      "cached_input_tokens": 211456,
+      "output_tokens": 2327,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_dp_insert_HDMI_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_dp_insert_HDMI_rgb_tactile",
+      "total_tokens": 247765,
+      "input_tokens": 245332,
+      "cached_input_tokens": 197120,
+      "output_tokens": 2433,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_dp_insert_HDMI_rgb_tactile/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_dp_insert_hole_rgb",
+      "total_tokens": 98953,
+      "input_tokens": 98371,
+      "cached_input_tokens": 62976,
+      "output_tokens": 582,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_dp_insert_hole_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_hole_dp_rgbt",
+      "total_tokens": 151135,
+      "input_tokens": 149271,
+      "cached_input_tokens": 105728,
+      "output_tokens": 1864,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_hole_dp_rgbt/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_dp_pull_out_key_rgb",
+      "total_tokens": 256339,
+      "input_tokens": 254524,
+      "cached_input_tokens": 196608,
+      "output_tokens": 1815,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_dp_pull_out_key_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_dp_pull_out_key_rgb_tactile",
+      "total_tokens": 131607,
+      "input_tokens": 130800,
+      "cached_input_tokens": 84608,
+      "output_tokens": 807,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_dp_pull_out_key_rgb_tactile/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_pi05_insert_HDMI_rgb",
+      "total_tokens": 194217,
+      "input_tokens": 192501,
+      "cached_input_tokens": 155648,
+      "output_tokens": 1716,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_pi05_insert_HDMI_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_pi05_insert_HDMI_rgb_tactile",
+      "total_tokens": 198216,
+      "input_tokens": 196261,
+      "cached_input_tokens": 152064,
+      "output_tokens": 1955,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_pi05_insert_HDMI_rgb_tactile/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_hole_pi05_rgb",
+      "total_tokens": 150792,
+      "input_tokens": 149286,
+      "cached_input_tokens": 108032,
+      "output_tokens": 1506,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_hole_pi05_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_pi05_insert_hole_rgb_tactile",
+      "total_tokens": 194444,
+      "input_tokens": 192554,
+      "cached_input_tokens": 149120,
+      "output_tokens": 1890,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_pi05_insert_hole_rgb_tactile/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_pi05_pull_out_key_rgb",
+      "total_tokens": 198867,
+      "input_tokens": 197280,
+      "cached_input_tokens": 152576,
+      "output_tokens": 1587,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_pi05_pull_out_key_rgb/round-1/harness/attempt-1/requirement.json"
+    },
+    {
+      "group": "univtac_pi05_pull_out_key_rgb_tactile",
+      "total_tokens": 149054,
+      "input_tokens": 147049,
+      "cached_input_tokens": 113536,
+      "output_tokens": 2005,
+      "requirement_file": "/root/autodl-tmp/gujie/tacharness-loop/runs/univtac_pi05_pull_out_key_rgb_tactile/round-1/harness/attempt-1/requirement.json"
+    }
+  ],
+  "n": 18,
+  "quantile_method": "linear",
+  "p95_single_call": 257062.75,
+  "tokens_per_group": 1156783,
+  "cli_calls_per_group": 6,
+  "model_requests_per_group": 150
+}

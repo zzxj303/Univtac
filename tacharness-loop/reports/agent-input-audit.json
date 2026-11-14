@@ -1,0 +1,266 @@
+{
+  "at": 1794683554.4106524,
+  "scope": "read-only implementation and actual-call audit; no model/GPU calls or experiment mutation",
+  "groups": [
+    {
+      "group": "univtac_hole_act_rgbt",
+      "raw_allowlist_count": 97,
+      "demo_sources_allowed": [],
+      "curve_point_count": 0,
+      "curve_point_fields": [],
+      "training_logs": [
+        {
+          "path": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/act/insert_hole/rgb_tactile/train.log",
+          "lines": 8022,
+          "minimum_calls_for_all_lines_at_limit_200": 41
+        }
+      ]
+    },
+    {
+      "group": "univtac_hole_dp_rgbt",
+      "raw_allowlist_count": 98,
+      "demo_sources_allowed": [],
+      "curve_point_count": 350,
+      "curve_point_fields": [
+        "step",
+        "loss",
+        "source",
+        "line"
+      ],
+      "training_logs": [
+        {
+          "path": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/train.log",
+          "lines": 97899,
+          "minimum_calls_for_all_lines_at_limit_200": 490
+        },
+        {
+          "path": "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/metrics.jsonl",
+          "lines": 3500,
+          "minimum_calls_for_all_lines_at_limit_200": 18
+        }
+      ],
+      "actual_v2_requested_tools": {
+        "raw.list": 1,
+        "th.history": 1,
+        "th.episodes": 1,
+        "th.curve": 2,
+        "raw.read": 27,
+        "th.keyframes": 2
+      },
+      "actual_v2_training_sources": [
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/completed.json",
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/config.json",
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/memory.json",
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/metrics.jsonl",
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/split.json",
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/official50/dp/insert_hole/rgb_tactile/train.log"
+      ]
+    },
+    {
+      "group": "univtac_hole_pi05_rgb",
+      "raw_allowlist_count": 99,
+      "demo_sources_allowed": [],
+      "curve_point_count": 8,
+      "curve_point_fields": [
+        "step",
+        "loss",
+        "source",
+        "line"
+      ],
+      "training_logs": [
+        {
+          "path": "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/train.log",
+          "lines": 4000,
+          "minimum_calls_for_all_lines_at_limit_200": 20
+        },
+        {
+          "path": "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/metrics.jsonl",
+          "lines": 4000,
+          "minimum_calls_for_all_lines_at_limit_200": 20
+        }
+      ],
+      "actual_v2_requested_tools": {
+        "raw.list": 1,
+        "th.episodes": 1,
+        "th.curve": 1,
+        "th.history": 1,
+        "raw.read": 24,
+        "th.keyframes": 2
+      },
+      "actual_v2_training_sources": [
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/config.json",
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/metrics.jsonl",
+        "/root/autodl-tmp/gujie/UniVTAC/outputs/pi05_official50/runs/insert_hole_rgb/status.json"
+      ]
+    }
+  ],
+  "probes": {
+    "demo_read": {
+      "path": "/root/autodl-tmp/gujie/UniVTAC/data/official50/insert_hole/episode_27.hdf5",
+      "exists": true,
+      "result": "PermissionError: Path is not in this group raw allowlist"
+    },
+    "demo_metadata_read": {
+      "path": "/root/autodl-tmp/gujie/UniVTAC/data/isaac51/insert_hole/metadata.json",
+      "exists": true,
+      "result": "PermissionError: Path is not in this group raw allowlist"
+    },
+    "demo_read_after_allowlisting_only": "ValueError: Binary source is not readable as text",
+    "post_update_trajectory_read": {
+      "path": "/root/autodl-tmp/gujie/tacharness-loop/runs/acceptance/dp/finetune_more/feedback/20001/attempt-1/trajectory.jsonl",
+      "exists": true,
+      "result": "PermissionError: Path is not in this group raw allowlist"
+    },
+    "minimal_evidence_gate": {
+      "description": "Synthetic probe, not a model output: retain valid facts/action but only cite feedback /counts; no demo/log/trajectory citations",
+      "verification": {
+        "passed": true,
+        "reasons": [],
+        "evidence_valid": 1,
+        "evidence_total": 1,
+        "fact_errors": [],
+        "schema_valid": true
+      }
+    },
+    "nonselected_candidate_raw_source": {
+      "path": "/root/autodl-tmp/gujie/tacharness-loop/runs/acceptance/dp/finetune_data/feedback-startup-recovery/20002/result.json",
+      "exists": true,
+      "allowed": false,
+      "scope": "synthetic rounds referencing real acceptance outputs; no evaluation performed"
+    }
+  },
+  "findings": [
+    {
+      "severity": "P0",
+      "topic": "demonstrations",
+      "confirmed": "No demonstration HDF5 or source metadata in allowlist; raw.read text-only; no demo tool",
+      "sources": [
+        "adapters/univtac.py:19",
+        "harness/mcp_server.py:21",
+        "harness/mcp_server.py:64"
+      ],
+      "effect": "Cannot inspect state/action, RGB/tactile demonstration trajectories or verify candidate demonstration eligibility"
+    },
+    {
+      "severity": "P0",
+      "topic": "later_round_feedback",
+      "confirmed": "Whitelist uses seed/trajectory.jsonl, evaluator records seed/attempt-N/trajectory.jsonl; real acceptance trajectory read denied",
+      "sources": [
+        "adapters/univtac.py:33",
+        "adapters/univtac.py:142"
+      ],
+      "effect": "Subsequent diagnosis can see episode outcomes and video, but raw action trajectory is inaccessible"
+    },
+    {
+      "severity": "P1",
+      "topic": "coverage_gate",
+      "confirmed": "Verifier checks cited values and facts, not source coverage or reading trace; summary-only citation probe passes",
+      "sources": [
+        "orchestrator/verify.py:36",
+        "harness/prompts/repair-v2.txt:6"
+      ],
+      "effect": "Passing verification does not establish analysis of demonstrations, training process or representative feedback"
+    },
+    {
+      "severity": "P1",
+      "topic": "curve_information",
+      "confirmed": "th.curve points contain step/loss/source/line only, where loss is validation; ACT returns zero points and best only",
+      "sources": [
+        "adapters/evidence.py:62"
+      ],
+      "effect": "Training loss, LR, gradient norm and temporal train-validation comparison require raw paging; ACT full curve not supplied"
+    },
+    {
+      "severity": "P1",
+      "topic": "historical_sources",
+      "confirmed": "Only baseline/current training dirs and selected round feedback dirs enumerated; candidates omitted; tools target current round or round number, not candidate artifact",
+      "sources": [
+        "adapters/univtac.py:22",
+        "adapters/univtac.py:27",
+        "harness/mcp_server.py:90",
+        "harness/mcp_server.py:102"
+      ],
+      "effect": "Cannot revisit all candidate failures or all intermediate training logs through the tools"
+    },
+    {
+      "severity": "P1",
+      "topic": "access_cost",
+      "confirmed": "No search, tail, semantic index or line-count/continuation metadata in raw.read; max 200 lines and 24000 chars per call, 40-tool limit",
+      "sources": [
+        "harness/mcp_server.py:28",
+        "harness/mcp_server.py:58"
+      ],
+      "effect": "Large logs require selective navigation; DP full log would require at least 490 calls, promoting summary-only inspection"
+    },
+    {
+      "severity": "P2",
+      "topic": "keyframes_and_citations",
+      "confirmed": "Only first recorded video and fixed start/mid/end frames; no timestamp or camera choice; visual evidence not structurally verifiable by citation schema",
+      "sources": [
+        "harness/mcp_server.py:107",
+        "orchestrator/verify.py:16"
+      ],
+      "effect": "May miss contact/slip transition; viewing RGB frames does not establish analysis of tactile demonstration sequences"
+    },
+    {
+      "severity": "P1",
+      "topic": "prompt_coverage_and_version",
+      "confirmed": "v2 requires rollout and training-curve inspection but not a distinct mandatory demonstration-versus-rollout comparison; frozen legacy inputs remain v1",
+      "sources": [
+        "harness/prompts/repair-v2.txt:5",
+        "harness/prompts/repair-v2.txt:13",
+        "orchestrator/context.py:20"
+      ],
+      "effect": "Prompt edit alone cannot open inaccessible data or change existing experiment inputs"
+    },
+    {
+      "severity": "P2",
+      "topic": "implementation_semantics",
+      "confirmed": "raw_files enumerates training-output text and feedback records, not training/evaluation/data-loader source; action space changes only checkpoint/LR/updates/demo IDs",
+      "sources": [
+        "adapters/univtac.py:19",
+        "orchestrator/verify.py:81",
+        "harness/prompts/repair-v2.txt:14"
+      ],
+      "effect": "Model cannot independently inspect preprocessing, normalization or action/state alignment code; structural pipeline defects may remain outside diagnosis and permitted remedies",
+      "recommendation": "If pipeline-level diagnosis is in scope, expose relevant vendored code as common read-only raw sources with provenance; do not silently expand executable action permissions"
+    },
+    {
+      "severity": "intentional",
+      "topic": "held_out_test",
+      "confirmed": "Feedback seeds 20001-20030 allowed; held-out test 20031-20060 excluded by design",
+      "sources": [
+        "adapters/evidence.py:21",
+        "adapters/univtac.py:32"
+      ],
+      "effect": "Keep held-out test inaccessible; explicitly name feedback as diagnostic evaluation instead of broadly saying no test data"
+    }
+  ],
+  "repair_order": [
+    "Expose current-group demonstrations and metadata via a common raw interface with bounded HDF5 slicing and image decoding; keep raw/harness source access equal",
+    "Resolve feedback source paths from result records, enumerate all candidates and historical train dirs",
+    "Add aligned training metrics and searchable raw records with offsets/source references",
+    "Add structured inspection coverage for demos/training/feedback including unavailable reasons; cross-check receipts without claiming to prove reasoning quality",
+    "Require demonstration-versus-rollout comparison in a new versioned prompt; preserve old experimental inputs"
+  ],
+  "readonly_audit": {
+    "at": 1794683555.2073488,
+    "command": [
+      "find",
+      "/root/autodl-tmp/gujie/UniVTAC",
+      "-newer",
+      "/root/autodl-tmp/gujie/tacharness-loop/.start_marker",
+      "-type",
+      "f"
+    ],
+    "changed_files": [],
+    "missing_roots": [
+      "/root/autodl-tmp/gujie/lab"
+    ]
+  },
+  "limitations": [
+    "Read events and valid citations cannot prove the quality of the model reasoning.",
+    "The current DP/pi05 v2 calls did inspect training metrics and representative feedback trajectories; the demonstrated complete block concerns training demonstrations and later-round raw trajectories.",
+    "No original source, training configuration, frozen prompt, gate or evaluation result was modified by this audit."
+  ]
+}
